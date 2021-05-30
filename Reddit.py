@@ -1,11 +1,15 @@
+# Natalie Vaughan-Wynn based on script from Felippe Rodrigues
+# Updated on May 28, 2021
+
+# These are the necessary Python packages
 import praw
 import pandas as pd
 
-reddit = praw.Reddit(client_id='oYD4UCL93Io4sA',
-                     client_secret='MocUJzdnYSGh0XTfrDhWuYzkwJCjpw',
+reddit = praw.Reddit(client_id='YOUR 14-DIGIT ID',
+                     client_secret='YOUR SECRET 27-DIGIT CODE ',
                      user_agent='Food stamps',
-                     username='SJMama',
-                     password='N0h@cking!')
+                     username='YOUR USER NAME',
+                     password='YOUR PASSWORD')
 
 # This is where a subreddit is specified
 subreddit = reddit.subreddit('foodstamps')
